@@ -7,6 +7,11 @@ android {
     namespace = "com.example.myreminder"
     compileSdk = 35
 
+    buildFeatures {
+        viewBinding = true
+    }
+
+
     defaultConfig {
         applicationId = "com.example.myreminder"
         minSdk = 24
