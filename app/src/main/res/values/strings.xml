@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">MyReminder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="LogIn">Imagen</string>
+    <string name="Welcome">Bienvenido</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo</string>
+    <string name="register">Registrarse</string>"
+    <string name="restore">Recuperar contraseña</string>
+    <string name="Button">Iniciar sesión</string>"
+    <string name="Inicia">Inicia sesion</string>
+    <string name="IniciaSes">Inicia sesion para continuar</string>
+
+    <string name="arrow">Flecha</string>
+    <string name="Register">Registrarse</string>"
+    <string name="welcome">Bienvenido</string>
+    <string name="RegisterCont">Registrate para continuar</string>
+    <string name="name">Nombre: </string>
 </resources>
