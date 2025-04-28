@@ -1,4 +1,4 @@
-package com.example.MyReminder.viewModel
+package com.example.myreminder.viewModel
 
 import android.util.Log
 import androidx.lifecycle.LiveData

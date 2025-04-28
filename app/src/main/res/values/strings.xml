@@ -63,4 +63,11 @@
     <string name="pendings">Pendientes</string>
     <string name="descriptionAdd">Botón para añadir</string>
 
+    <string name="addTask">Agregar tarea</string>
+    <string name="descriptionBack">Botón para regresar</string>
+    <string name="nameTask">Nombre: </string>
+    <string name="descriptionTask">Descripción: </string>
+    <string name="dateTask">Fecha: </string>
+    <string name="addingTask">Agregar</string>
+
 </resources>

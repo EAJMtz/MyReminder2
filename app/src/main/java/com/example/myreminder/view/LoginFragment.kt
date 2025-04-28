@@ -1,4 +1,4 @@
-package com.example.MyReminder.view
+package com.example.myreminder.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.core.widget.addTextChangedListener
 import androidx.navigation.fragment.findNavController
-import com.example.MyReminder.viewModel.LoginViewModel
+import com.example.myreminder.viewModel.LoginViewModel
 import com.example.myreminder.ListActivity
 import com.example.myreminder.R
 import com.example.myreminder.databinding.FragmentLoginBinding

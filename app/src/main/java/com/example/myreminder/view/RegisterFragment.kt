@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.MyReminder.viewModel.RegisterViewModel
+import com.example.myreminder.viewModel.RegisterViewModel
 import com.example.myreminder.R
 import com.example.myreminder.databinding.FragmentRegisterBinding
 import com.example.myreminder.utils.FragmentCommunicator
