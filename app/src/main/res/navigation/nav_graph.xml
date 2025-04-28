@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.myreminder.LoginFragment"
+        android:name="com.example.myreminder.view.LoginFragment"
         android:label="Login" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
@@ -15,7 +15,7 @@
 
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.myreminder.RegisterFragment"
+        android:name="com.example.myreminder.view.RegisterFragment"
         android:label="Registro" >
         <action
             android:id="@+id/action_registerFragment_to_loginFragment"

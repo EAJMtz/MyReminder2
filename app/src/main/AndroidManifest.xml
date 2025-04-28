@@ -19,7 +19,7 @@
             android:theme="@style/Theme.MyReminder" />
 
         <activity
-            android:name=".OnBoardingActivity"
+            android:name=".view.OnBoardingActivity"
             android:exported="true"
             android:theme="@style/Theme.MyReminder">
 
@@ -32,7 +32,7 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="false">
 
         </activity>

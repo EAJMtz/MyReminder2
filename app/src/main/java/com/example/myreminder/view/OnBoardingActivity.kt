@@ -1,18 +1,16 @@
-package com.example.myreminder
+package com.example.myreminder.view
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.ui.AppBarConfiguration
 import com.example.myreminder.databinding.ActivityOnBoardingBinding
 import com.example.myreminder.utils.FragmentCommunicator
 import androidx.navigation.findNavController
 import androidx.navigation.ui.navigateUp
 import android.view.View
+import com.example.myreminder.R
 
-class ListActivity : AppCompatActivity(), FragmentCommunicator {
+class OnBoardingActivity : AppCompatActivity(), FragmentCommunicator {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityOnBoardingBinding
