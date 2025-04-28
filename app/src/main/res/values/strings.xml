@@ -59,4 +59,8 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="descriptionMenu">Botón de menú</string>
+    <string name="pendings">Pendientes</string>
+    <string name="descriptionAdd">Botón para añadir</string>
+
 </resources>
