@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.ui.AppBarConfiguration
-import com.example.myreminder.databinding.ActivityOnBoardingBinding
+import com.example.myreminder.databinding.ActivityListBinding
 import com.example.myreminder.utils.FragmentCommunicator
 import androidx.navigation.findNavController
 import androidx.navigation.ui.navigateUp
@@ -15,12 +15,12 @@ import android.view.View
 class ListActivity : AppCompatActivity(), FragmentCommunicator {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityOnBoardingBinding
+    private lateinit var binding: ActivityListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityOnBoardingBinding.inflate(layoutInflater)
+        binding = ActivityListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
     }
