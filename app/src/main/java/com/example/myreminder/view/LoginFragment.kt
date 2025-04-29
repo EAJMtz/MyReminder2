@@ -10,10 +10,10 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.core.widget.addTextChangedListener
 import androidx.navigation.fragment.findNavController
-import com.example.myreminder.viewModel.LoginViewModel
 import com.example.myreminder.ListActivity
 import com.example.myreminder.R
 import com.example.myreminder.databinding.FragmentLoginBinding
+import com.example.myreminder.viewModel.LoginViewModel
 import com.example.myreminder.utils.FragmentCommunicator
 import com.example.myreminder.view.OnBoardingActivity
 
@@ -37,13 +37,13 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
+
         communicator = requireActivity() as OnBoardingActivity
+
         setupView()
         setupObservers()
         return binding.root
-
     }
 
 
